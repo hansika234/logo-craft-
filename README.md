@@ -1,1 +1,1 @@
-# logo-craft-
+Logo Craft AI is a web-based application that allows users to generate custom logos by simply entering text. Using advanced AI models like HuggingFace's the app creates high-quality logos instantly. Additionally, it leverages OpenCV for image processing and MediaPipe for hand gesture tracking, providing an interactive and dynamic experience. Whether you're looking for a logo for your brand or project, Logo Craft AI simplifies the process with a user-friendly interface and powerful AI capabilities.# logo-craft-
