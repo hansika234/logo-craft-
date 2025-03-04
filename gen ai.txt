@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator with OpenCV, MediaPipe, and Palm Text-Bison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+        .logo img {
+            width: 300px;
+            height: auto;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Your Logo</h1>
+        <form method="POST">
+            <input type="text" name="text_input" placeholder="Enter text for the logo" required>
+            <button type="submit">Generate Logo</button>
+        </form>
+
+        {% if logo_path %}
+            <div class="logo">
+                <h2>Your Generated Logo</h2>
+                <img src="{{ logo_path }}" alt="Generated Logo">
+            </div>
+        {% endif %}
+
+        {% if error %}
+            <div class="error">
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator with OpenCV, MediaPipe, and Palm Text-Bison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+        .logo img {
+            width: 300px;
+            height: auto;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Your Logo</h1>
+        <form method="POST">
+            <input type="text" name="text_input" placeholder="Enter text for the logo" required>
+            <button type="submit">Generate Logo</button>
+        </form>
+
+        {% if logo_path %}
+            <div class="logo">
+                <h2>Your Generated Logo</h2>
+                <img src="{{ logo_path }}" alt="Generated Logo">
+            </div>
+        {% endif %}
+
+        {% if error %}
+            <div class="error">
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+opencv-python==4.7.0.72
+mediapipe==0.9.0
+requests==2.28.1
+google-cloud==3.1.2
+flask==2.2.3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator with OpenCV, MediaPipe, and Palm Text-Bison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+        .logo img {
+            width: 300px;
+            height: auto;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Your Logo</h1>
+        <form method="POST">
+            <input type="text" name="text_input" placeholder="Enter text for the logo" required>
+            <button type="submit">Generate Logo</button>
+        </form>
+
+        {% if logo_path %}
+            <div class="logo">
+                <h2>Your Generated Logo</h2>
+                <img src="{{ logo_path }}" alt="Generated Logo">
+            </div>
+        {% endif %}
+
+        {% if error %}
+            <div class="error">
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
